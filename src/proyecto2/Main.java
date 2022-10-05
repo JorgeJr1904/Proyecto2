@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package proyecto2;
 
 /**
@@ -9,5 +6,18 @@ package proyecto2;
  * @author JorgeJr
  */
 public class Main {
+    
+    //MyThread[10] memory = MyThread[10];
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        MyThread hilo1 = new MyThread();
+        MyThread hilo2 = new MyThread();
+        
+        hilo1.start();
+        hilo2.start();
+    }
     
 }
