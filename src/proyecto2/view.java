@@ -132,7 +132,7 @@ public class view extends javax.swing.JFrame {
         ));
         jScrollPane5.setViewportView(tblMemoriaRam);
 
-        jPanel2.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 140, 400, 150));
+        jPanel2.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 140, 400, 150));
 
         tblMemoriaVirtual.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -144,15 +144,15 @@ public class view extends javax.swing.JFrame {
         ));
         jScrollPane4.setViewportView(tblMemoriaVirtual);
 
-        jPanel2.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 140, 321, 110));
+        jPanel2.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 140, 321, 110));
 
         jLabel5.setFont(new java.awt.Font("DialogInput", 3, 12)); // NOI18N
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/MEMO.png"))); // NOI18N
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 100, -1, 30));
+        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 100, -1, 30));
 
         jLabel6.setFont(new java.awt.Font("DialogInput", 3, 12)); // NOI18N
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/RAM.png"))); // NOI18N
-        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1010, 90, -1, 40));
+        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 100, -1, 40));
 
         tblTablaPaginas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -164,11 +164,11 @@ public class view extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(tblTablaPaginas);
 
-        jPanel2.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 300, 210, 140));
+        jPanel2.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 270, 210, 140));
 
         jLabel7.setFont(new java.awt.Font("DialogInput", 3, 12)); // NOI18N
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/TAB.png"))); // NOI18N
-        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 270, -1, 30));
+        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 240, -1, 30));
 
         tblPaginas.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -180,11 +180,11 @@ public class view extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tblPaginas);
 
-        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 300, 161, 140));
+        jPanel2.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 270, 161, 140));
 
         jLabel3.setFont(new java.awt.Font("DialogInput", 3, 12)); // NOI18N
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/PAG.png"))); // NOI18N
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 270, -1, 30));
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 240, -1, 30));
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
@@ -237,20 +237,20 @@ public class view extends javax.swing.JFrame {
                 .addComponent(btnCrearProceso))
         );
 
-        jPanel2.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, -1, -1));
+        jPanel2.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 140, -1, -1));
 
         jLabel4.setFont(new java.awt.Font("DialogInput", 3, 12)); // NOI18N
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/CRE.png"))); // NOI18N
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 130, -1, 30));
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 110, -1, 30));
 
         lblQuantum.setFont(new java.awt.Font("Dialog", 2, 14)); // NOI18N
         lblQuantum.setForeground(new java.awt.Color(153, 153, 153));
         lblQuantum.setText("Quantum 1000 ms");
-        jPanel2.add(lblQuantum, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 140, -1, -1));
+        jPanel2.add(lblQuantum, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("DialogInput", 3, 12)); // NOI18N
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/LIST.png"))); // NOI18N
-        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 260, -1, 30));
+        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 260, -1, 30));
 
         tblProcesos.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -262,53 +262,53 @@ public class view extends javax.swing.JFrame {
         ));
         jScrollPane3.setViewportView(tblProcesos);
 
-        jPanel2.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 300, 740, 140));
+        jPanel2.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 300, 740, 140));
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/VIÑETA.jpg"))); // NOI18N
-        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 130, -1, 30));
+        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, -1, 30));
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/VIÑETA.jpg"))); // NOI18N
-        jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 270, -1, 30));
+        jPanel2.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 240, -1, 30));
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/VIÑETA.jpg"))); // NOI18N
-        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 270, -1, 30));
+        jPanel2.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, -1, 30));
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/VIÑETA.jpg"))); // NOI18N
-        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 100, -1, 30));
+        jPanel2.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 100, -1, 30));
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/VIÑETA.jpg"))); // NOI18N
-        jPanel2.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 260, -1, -1));
+        jPanel2.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 260, -1, -1));
 
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/VIÑETA.jpg"))); // NOI18N
-        jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 90, -1, 40));
+        jPanel2.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 100, -1, 40));
 
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/PRO.png"))); // NOI18N
-        jPanel2.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 40, -1, -1));
+        jPanel2.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 30, -1, -1));
 
         jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/DD.jpg"))); // NOI18N
-        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(1180, 10, -1, -1));
+        jPanel2.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(1140, 0, -1, -1));
 
         jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/FFFF.jpg"))); // NOI18N
-        jPanel2.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 10, -1, 93));
+        jPanel2.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 0, -1, 93));
 
         jLabel20.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel20.setText("MIGUEL VILLALOBOS");
-        jPanel2.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 270, -1, -1));
+        jPanel2.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
 
         jLabel21.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel21.setText("NELSON JERONIMO");
-        jPanel2.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 310, -1, -1));
+        jPanel2.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
 
         jLabel22.setFont(new java.awt.Font("Times New Roman", 1, 14)); // NOI18N
         jLabel22.setText("ERICSON BARILLAS");
-        jPanel2.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, -1, -1));
+        jPanel2.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 290, -1, -1));
 
         jLabel23.setFont(new java.awt.Font("Times New Roman", 1, 16)); // NOI18N
         jLabel23.setText("JORGE VILLAGRAN");
-        jPanel2.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 250, -1, -1));
+        jPanel2.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, -1, -1));
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IMAGENES/TE.png"))); // NOI18N
-        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        jPanel2.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 210, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
