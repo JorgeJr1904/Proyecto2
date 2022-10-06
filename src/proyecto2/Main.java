@@ -5,7 +5,7 @@ package proyecto2;
  *
  * @author JorgeJr
  */
-public class Main {
+public class Main  {
     
     //MyThread[10] memory = MyThread[10];
     /**
