@@ -1,6 +1,8 @@
 
 package proyecto2;
 
+import javax.swing.JTable;
+
 /**
  *
  * @author JorgeJr
@@ -18,6 +20,11 @@ public class Main  {
         
         hilo1.start();
         hilo2.start();
+        
+        view tabla = new view();
+        
+        tabla.setVisible(true);
+        
     }
     
 }
