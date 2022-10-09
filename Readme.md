@@ -7,7 +7,7 @@
 
 *Iniciamos creando un proceso y asignando el tamaño del mismo* 
 
-![Markdown](01.JPG)
+![Markdown](Readme\01.JPG)
 
 ---
 
@@ -15,7 +15,7 @@
 
 *Las tablas de procesos y asignación de memoria se encuentran vacías y segun se van registrando procesos estos se ven reflejados en la misma, se irán llenando según el usuario vaya creando proceso por cada creación de proceso se le debe solicitar al usuario el nombre del proceso y el espacio de memoria.*
 
-![Markdown](02.JPG)
+![Markdown](Readme\02.JPG)
 ---
 
 ### ***Limitantes***
@@ -24,7 +24,7 @@
 
 *segun sean inscritos los procesos estos apareceran enlistados en un maximo de 15 de manera simultanea.*
 
-![Markdown](03.JPG)
+![Markdown](Readme\03.JPG)
 
 ## ***Codigo del Programa:***
 
